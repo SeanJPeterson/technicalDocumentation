@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>CSS Technical Documentation</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>CSS Documentation</header>
+      <ul>
+      <li><a class="nav-link" href="#introduction">Introduction</a></li>
+          <li><a class="nav-link" href="#what_you_should_already_know">What you should already know</a></li>
+          <li><a class="nav-link" href="#how_does_css_work">How does CSS work</a></li>
+          <li><a class="nav-link" href="#uses_for_css">Uses for CSS</a></li>
+          <li><a class="nav-link" href="#reference">Reference</a></li>
+          </ul>
+      </nav>
+    <main id="main-doc">
+      <section class="main-section" id="introduction">
+        <header>Introduction</header>
+        <article>
+          <p> Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document It describes how elements should be rendered on screen, on paper, in speech, or on other media.
+            </p>
+            <p> CSS has a bunch of tools to make the website one is making more presentible or complex, such as animations, font styles, color, etc.
+              </p>
+          </article>
+      </section>
+      <section class="main-section" id="what_you_should_already_know">
+        <header>What you should already know</header>
+         <article>
+          <p> This guide assumes you have the following knowledge:
+            </p> 
+            <ul>
+              <li>Good working knowledge of HyperText Markup Language (HTML).
+                </li>
+                <li>A general understanding of the Internet and the World Wide Web (WWW).</li>
+                <li>A willingness to be creative</li>
+              </ul>
+          </article>
+      </section>
+      <section class="main-section" id="how_does_css_work">
+        <header>How does CSS work</header>
+        <article>
+          <p>
+        Let's use a example of CSS code right here:
+        </p>
+  <code>p { color: red; }</code>
+          <p>This is a ruleset, (The term ruleset is often referred to as just rule.) Note the names of the individual parts:</p>
+            <p><strong>Selector:</strong> This is the HTML element name at the start of the ruleset. It defines the element(s) to be styled. To style a different element, you would need to change the selector. (In this case the "p" is the selctor used for this example.)</p>
+              <p><strong>Declaration:</strong> A single rule. It specifies which of the element's properties you want to style. (In this case, it's "color: red;")</p>
+              <p><strong>Properties:</strong> These are ways in which you can style an HTML element. (In this example, "color" is the property of "p" elements.) In CSS, you choose which properties you want to affect in the rule.</p>
+              <p><strong>Property value:</strong> To the right of the property—after the colon—there is the property value. This chooses one out of many possible appearances for a given property. (For example, there are many "color" values in addition to "red".)</p> 
+          </article>
+      </section>
+      <section class="main-section" id="uses_for_css">
+        <header>Uses for CSS</header>
+        <article>
+          <p> The main use for Cascading Style Sheets (CSS), is to make the appearence of a website a person is making unique and interesting, and even appealing to look at while someone is browsing the website.
+            </p>
+            <p>The HTML elements can be thought of as boxes, sitting on top of other boxes. These boxes can be changed and shaped and repositioned to the designer's desires, with the rulesets used in CSS. The types of changes one can make include the following:</p>
+            <ul>
+              <li id="width"><strong>Width/Height:</strong> The basic size of the object. You can change it to be large or small, or however you wish for it to be. (e.g. <code>li { width: 20px; height: 20px;}</code>)</li>
+              <li id="background-color"><strong>Background-Color:</strong> This changes how the color of a object's background color, making the box not only appear, but also be the desired color. Good for making aesthetic objects that are to decorate the website with. (e.g. <code>li { Background-Color: #4A79A5}</code> (This would change the background color to be the color Denim))</li>
+              <li id="color"><strong>Color:</strong> The color of the contents within the object, which is usually text. (e.g. <code>li { Color: #A074F1}</code> (This would change the text color to be the color Portage))</li>
+              <li id="text-shadow"><strong>Text-Shadow:</strong> The ruleset that allows text of a object to have a shadow of some kind within said object. (e.g. <code>li { text-shadow: #FC0 1px 0 10px;}</code> (This would change the text shadow to appear as having a soft glow around it.))</li>
+              <li id="display"><strong>Display:</strong> Changes how the object is displayed.  (e.g. <code>li { display: flex;}</code>)</li>
+              <li id="border"><strong>Border</strong> The border of a object. It can ether be invisable or visable. (e.g. <code>li { border: thick double #32a1ce;}</code>)</li>
+              </ul>
+          </article>
+      </section>
+      <section class="main-section" id="reference">
+        <header>Reference</header>
+        <article>
+          <p> All the documentation in this page is taken from
+              <a
+                href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+                target="_blank"
+                >MDN Web Docs</a
+              >
+            </p>
+          </article>
+      </section>
+    </main>
+  </body>
+</html>
